@@ -1,0 +1,8 @@
+ip_address,threat_level,reason,first_seen,last_seen,num_attempts
+45.123.45.67,HIGH,Brute force login attempts,2025-12-01 09:30:00,2025-12-05 14:30:30,15
+89.234.56.78,HIGH,Repeated password guessing,2025-12-01 11:20:00,2025-12-04 08:16:30,14
+101.202.45.88,MEDIUM,Multiple invalid email attempts,2025-12-02 07:00:00,2025-12-07 09:01:30,12
+198.51.100.23,MEDIUM,Scanning for admin accounts,2025-12-03 09:30:00,2025-12-06 13:00:15,5
+203.0.113.45,MEDIUM,Probing database admin accounts,2025-12-05 07:30:00,2025-12-08 11:30:30,6
+185.220.101.5,HIGH,Known tor exit node,2025-11-28 03:15:00,2025-12-03 22:45:00,8
+192.0.2.100,LOW,Unusual access pattern,2025-12-04 14:30:00,2025-12-06 16:00:00,3

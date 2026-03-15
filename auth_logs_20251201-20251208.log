@@ -1,0 +1,111 @@
+# DigitalBank France - Authentication Logs
+# Period: 2025-12-01 to 2025-12-08
+# Format: timestamp | ip_address | user_id | action | status
+# ---------------------------------------------------------
+
+2025-12-01 08:15:23 | 192.168.1.100 | jean.dupont@email.fr | LOGIN | SUCCESS
+2025-12-01 08:20:45 | 192.168.1.101 | marie.martin@email.fr | LOGIN | SUCCESS
+2025-12-01 09:05:12 | 192.168.1.102 | pierre.bernard@email.fr | LOGIN | SUCCESS
+2025-12-01 09:30:00 | 45.123.45.67 | admin@digitalbank.fr | LOGIN | FAILED_INVALID_EMAIL
+2025-12-01 09:30:15 | 45.123.45.67 | admin@digitalbank.fr | LOGIN | FAILED_INVALID_EMAIL
+2025-12-01 09:30:30 | 45.123.45.67 | root@digitalbank.fr | LOGIN | FAILED_INVALID_EMAIL
+2025-12-01 09:30:45 | 45.123.45.67 | superadmin@digitalbank.fr | LOGIN | FAILED_INVALID_EMAIL
+2025-12-01 10:15:30 | 192.168.1.103 | sophie.petit@email.fr | LOGIN | SUCCESS
+2025-12-01 11:20:00 | 89.234.56.78 | jean.dupont@email.fr | LOGIN | FAILED_INVALID_PASSWORD
+2025-12-01 11:20:15 | 89.234.56.78 | jean.dupont@email.fr | LOGIN | FAILED_INVALID_PASSWORD
+2025-12-01 11:20:30 | 89.234.56.78 | jean.dupont@email.fr | LOGIN | FAILED_INVALID_PASSWORD
+2025-12-01 11:20:45 | 89.234.56.78 | jean.dupont@email.fr | LOGIN | FAILED_INVALID_PASSWORD
+2025-12-01 11:21:00 | 89.234.56.78 | jean.dupont@email.fr | LOGIN | FAILED_INVALID_PASSWORD
+2025-12-01 11:21:15 | 89.234.56.78 | jean.dupont@email.fr | LOGIN | FAILED_ACCOUNT_LOCKED
+2025-12-01 14:30:00 | 192.168.1.104 | luc.durand@email.fr | LOGIN | SUCCESS
+2025-12-01 15:45:22 | 192.168.1.105 | claire.moreau@email.fr | LOGIN | SUCCESS
+
+2025-12-02 07:00:00 | 101.202.45.88 | admin@digitalbank.fr | LOGIN | FAILED_INVALID_EMAIL
+2025-12-02 07:00:10 | 101.202.45.88 | administrator@digitalbank.fr | LOGIN | FAILED_INVALID_EMAIL
+2025-12-02 07:00:20 | 101.202.45.88 | sysadmin@digitalbank.fr | LOGIN | FAILED_INVALID_EMAIL
+2025-12-02 08:10:00 | 192.168.1.100 | jean.dupont@email.fr | LOGIN | SUCCESS
+2025-12-02 08:25:30 | 192.168.1.101 | marie.martin@email.fr | LOGIN | SUCCESS
+2025-12-02 09:15:00 | 192.168.1.106 | thomas.simon@email.fr | LOGIN | SUCCESS
+2025-12-02 10:30:00 | 192.168.1.107 | emma.laurent@email.fr | LOGIN | SUCCESS
+2025-12-02 11:45:00 | 45.123.45.67 | user123@email.fr | LOGIN | FAILED_INVALID_EMAIL
+2025-12-02 11:45:15 | 45.123.45.67 | user456@email.fr | LOGIN | FAILED_INVALID_EMAIL
+2025-12-02 11:45:30 | 45.123.45.67 | user789@email.fr | LOGIN | FAILED_INVALID_EMAIL
+2025-12-02 13:20:00 | 192.168.1.108 | nicolas.lefebvre@email.fr | LOGIN | SUCCESS
+2025-12-02 14:05:30 | 192.168.1.109 | amelie.roux@email.fr | LOGIN | SUCCESS
+
+2025-12-03 08:00:00 | 192.168.1.100 | jean.dupont@email.fr | LOGIN | SUCCESS
+2025-12-03 08:30:00 | 192.168.1.101 | marie.martin@email.fr | LOGIN | SUCCESS
+2025-12-03 09:00:00 | 192.168.1.102 | pierre.bernard@email.fr | LOGIN | SUCCESS
+2025-12-03 09:30:00 | 198.51.100.23 | test@digitalbank.fr | LOGIN | FAILED_INVALID_EMAIL
+2025-12-03 09:30:10 | 198.51.100.23 | test@digitalbank.fr | LOGIN | FAILED_INVALID_EMAIL
+2025-12-03 09:30:20 | 198.51.100.23 | demo@digitalbank.fr | LOGIN | FAILED_INVALID_EMAIL
+2025-12-03 10:15:00 | 192.168.1.103 | sophie.petit@email.fr | LOGIN | SUCCESS
+2025-12-03 11:00:00 | 192.168.1.104 | luc.durand@email.fr | LOGIN | SUCCESS
+2025-12-03 12:30:00 | 192.168.1.105 | claire.moreau@email.fr | LOGIN | SUCCESS
+2025-12-03 14:00:00 | 192.168.1.106 | thomas.simon@email.fr | LOGIN | SUCCESS
+
+2025-12-04 08:05:00 | 192.168.1.100 | jean.dupont@email.fr | LOGIN | SUCCESS
+2025-12-04 08:15:00 | 89.234.56.78 | pierre.bernard@email.fr | LOGIN | FAILED_INVALID_PASSWORD
+2025-12-04 08:15:15 | 89.234.56.78 | pierre.bernard@email.fr | LOGIN | FAILED_INVALID_PASSWORD
+2025-12-04 08:15:30 | 89.234.56.78 | pierre.bernard@email.fr | LOGIN | FAILED_INVALID_PASSWORD
+2025-12-04 08:15:45 | 89.234.56.78 | pierre.bernard@email.fr | LOGIN | FAILED_INVALID_PASSWORD
+2025-12-04 08:16:00 | 89.234.56.78 | pierre.bernard@email.fr | LOGIN | FAILED_INVALID_PASSWORD
+2025-12-04 08:16:15 | 89.234.56.78 | pierre.bernard@email.fr | LOGIN | FAILED_INVALID_PASSWORD
+2025-12-04 08:16:30 | 89.234.56.78 | pierre.bernard@email.fr | LOGIN | FAILED_ACCOUNT_LOCKED
+2025-12-04 09:00:00 | 192.168.1.101 | marie.martin@email.fr | LOGIN | SUCCESS
+2025-12-04 10:30:00 | 192.168.1.107 | emma.laurent@email.fr | LOGIN | SUCCESS
+2025-12-04 11:45:00 | 192.168.1.108 | nicolas.lefebvre@email.fr | LOGIN | SUCCESS
+
+2025-12-05 07:30:00 | 203.0.113.45 | backup@digitalbank.fr | LOGIN | FAILED_INVALID_EMAIL
+2025-12-05 07:30:15 | 203.0.113.45 | db_admin@digitalbank.fr | LOGIN | FAILED_INVALID_EMAIL
+2025-12-05 07:30:30 | 203.0.113.45 | database@digitalbank.fr | LOGIN | FAILED_INVALID_EMAIL
+2025-12-05 08:00:00 | 192.168.1.100 | jean.dupont@email.fr | LOGIN | SUCCESS
+2025-12-05 08:30:00 | 192.168.1.101 | marie.martin@email.fr | LOGIN | SUCCESS
+2025-12-05 09:00:00 | 192.168.1.103 | sophie.petit@email.fr | LOGIN | SUCCESS
+2025-12-05 10:00:00 | 192.168.1.104 | luc.durand@email.fr | LOGIN | SUCCESS
+2025-12-05 11:00:00 | 192.168.1.109 | amelie.roux@email.fr | LOGIN | SUCCESS
+2025-12-05 14:30:00 | 45.123.45.67 | random123@email.com | LOGIN | FAILED_INVALID_EMAIL
+2025-12-05 14:30:15 | 45.123.45.67 | random456@email.com | LOGIN | FAILED_INVALID_EMAIL
+2025-12-05 14:30:30 | 45.123.45.67 | random789@email.com | LOGIN | FAILED_INVALID_EMAIL
+
+2025-12-06 08:10:00 | 192.168.1.100 | jean.dupont@email.fr | LOGIN | SUCCESS
+2025-12-06 08:20:00 | 192.168.1.101 | marie.martin@email.fr | LOGIN | SUCCESS
+2025-12-06 09:00:00 | 192.168.1.102 | pierre.bernard@email.fr | LOGIN | SUCCESS
+2025-12-06 10:00:00 | 192.168.1.106 | thomas.simon@email.fr | LOGIN | SUCCESS
+2025-12-06 11:30:00 | 192.168.1.107 | emma.laurent@email.fr | LOGIN | SUCCESS
+2025-12-06 13:00:00 | 198.51.100.23 | support@digitalbank.fr | LOGIN | FAILED_INVALID_EMAIL
+2025-12-06 13:00:15 | 198.51.100.23 | help@digitalbank.fr | LOGIN | FAILED_INVALID_EMAIL
+2025-12-06 14:30:00 | 192.168.1.108 | nicolas.lefebvre@email.fr | LOGIN | SUCCESS
+
+2025-12-07 08:00:00 | 192.168.1.100 | jean.dupont@email.fr | LOGIN | SUCCESS
+2025-12-07 08:30:00 | 192.168.1.101 | marie.martin@email.fr | LOGIN | SUCCESS
+2025-12-07 09:00:00 | 101.202.45.88 | marie.martin@email.fr | LOGIN | FAILED_INVALID_PASSWORD
+2025-12-07 09:00:15 | 101.202.45.88 | marie.martin@email.fr | LOGIN | FAILED_INVALID_PASSWORD
+2025-12-07 09:00:30 | 101.202.45.88 | marie.martin@email.fr | LOGIN | FAILED_INVALID_PASSWORD
+2025-12-07 09:00:45 | 101.202.45.88 | marie.martin@email.fr | LOGIN | FAILED_INVALID_PASSWORD
+2025-12-07 09:01:00 | 101.202.45.88 | marie.martin@email.fr | LOGIN | FAILED_INVALID_PASSWORD
+2025-12-07 09:01:15 | 101.202.45.88 | marie.martin@email.fr | LOGIN | FAILED_INVALID_PASSWORD
+2025-12-07 09:01:30 | 101.202.45.88 | marie.martin@email.fr | LOGIN | FAILED_ACCOUNT_LOCKED
+2025-12-07 10:00:00 | 192.168.1.103 | sophie.petit@email.fr | LOGIN | SUCCESS
+2025-12-07 11:00:00 | 192.168.1.104 | luc.durand@email.fr | LOGIN | SUCCESS
+2025-12-07 12:00:00 | 192.168.1.105 | claire.moreau@email.fr | LOGIN | SUCCESS
+
+2025-12-08 08:05:00 | 192.168.1.100 | jean.dupont@email.fr | LOGIN | SUCCESS
+2025-12-08 08:25:00 | 192.168.1.101 | marie.martin@email.fr | LOGIN | SUCCESS
+2025-12-08 09:15:00 | 192.168.1.102 | pierre.bernard@email.fr | LOGIN | SUCCESS
+2025-12-08 10:00:00 | 192.168.1.109 | amelie.roux@email.fr | LOGIN | SUCCESS
+2025-12-08 11:30:00 | 203.0.113.45 | test123@test.com | LOGIN | FAILED_INVALID_EMAIL
+2025-12-08 11:30:15 | 203.0.113.45 | test456@test.com | LOGIN | FAILED_INVALID_EMAIL
+2025-12-08 11:30:30 | 203.0.113.45 | test789@test.com | LOGIN | FAILED_INVALID_EMAIL
+2025-12-08 14:00:00 | 192.168.1.106 | thomas.simon@email.fr | LOGIN | SUCCESS
+2025-12-08 15:00:00 | 192.168.1.107 | emma.laurent@email.fr | LOGIN | SUCCESS
+2025-12-08 16:00:00 | 192.168.1.108 | nicolas.lefebvre@email.fr | LOGIN | SUCCESS
+
+# END OF LOG FILE
+# 
+# NOTES FOR STUDENTS:
+# - Look for patterns: repeated failed attempts from same IP
+# - Suspicious IPs: 45.123.45.67, 89.234.56.78, 101.202.45.88, 198.51.100.23, 203.0.113.45
+# - These IPs show brute force attempts (5+ failed logins)
+# - IP ranges 192.168.1.x are internal/legitimate
+# - Use Python to parse and analyze this log file (Pandas recommended)

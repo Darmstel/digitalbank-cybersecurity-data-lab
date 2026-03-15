@@ -1,0 +1,165 @@
+# DigitalBank France - API Access Logs
+# Period: 2025-12-01 to 2025-12-08
+# Format: timestamp | ip_address | endpoint | http_method | status_code
+# ---------------------------------------------------------
+
+2025-12-01 08:15:25 | 192.168.1.100 | /api/accounts | GET | 200
+2025-12-01 08:15:30 | 192.168.1.100 | /api/transactions | GET | 200
+2025-12-01 08:20:50 | 192.168.1.101 | /api/accounts/balance | GET | 200
+2025-12-01 08:21:00 | 192.168.1.101 | /api/transactions/history | GET | 200
+2025-12-01 09:05:15 | 192.168.1.102 | /api/cards | GET | 200
+2025-12-01 09:30:05 | 45.123.45.67 | /api/admin/users | GET | 403
+2025-12-01 09:30:10 | 45.123.45.67 | /api/admin/config | GET | 403
+2025-12-01 09:30:15 | 45.123.45.67 | /api/admin/database | GET | 403
+2025-12-01 09:30:20 | 45.123.45.67 | /api/admin/logs | GET | 403
+2025-12-01 09:30:25 | 45.123.45.67 | /api/admin/system | GET | 403
+2025-12-01 09:30:30 | 45.123.45.67 | /api/admin/backup | GET | 403
+2025-12-01 09:30:35 | 45.123.45.67 | /api/users/1 | GET | 401
+2025-12-01 09:30:40 | 45.123.45.67 | /api/users/2 | GET | 401
+2025-12-01 09:30:45 | 45.123.45.67 | /api/users/3 | GET | 401
+2025-12-01 09:30:50 | 45.123.45.67 | /api/customers/1 | GET | 401
+2025-12-01 10:15:35 | 192.168.1.103 | /api/accounts | GET | 200
+2025-12-01 10:15:40 | 192.168.1.103 | /api/cards/status | GET | 200
+2025-12-01 11:20:05 | 89.234.56.78 | /api/auth/login | POST | 401
+2025-12-01 11:20:10 | 89.234.56.78 | /api/auth/login | POST | 401
+2025-12-01 11:20:15 | 89.234.56.78 | /api/auth/login | POST | 401
+2025-12-01 11:20:20 | 89.234.56.78 | /api/accounts/1/transactions | GET | 401
+2025-12-01 11:20:25 | 89.234.56.78 | /api/accounts/2/transactions | GET | 401
+2025-12-01 11:20:30 | 89.234.56.78 | /api/accounts/3/transactions | GET | 401
+2025-12-01 14:30:05 | 192.168.1.104 | /api/transactions | GET | 200
+2025-12-01 15:45:25 | 192.168.1.105 | /api/accounts/balance | GET | 200
+
+2025-12-02 07:00:05 | 101.202.45.88 | /api/admin | GET | 404
+2025-12-02 07:00:10 | 101.202.45.88 | /api/admin/users | GET | 403
+2025-12-02 07:00:15 | 101.202.45.88 | /api/admin/settings | GET | 403
+2025-12-02 07:00:20 | 101.202.45.88 | /api/database/export | GET | 403
+2025-12-02 07:00:25 | 101.202.45.88 | /api/system/info | GET | 403
+2025-12-02 08:10:05 | 192.168.1.100 | /api/accounts | GET | 200
+2025-12-02 08:25:35 | 192.168.1.101 | /api/transactions/search | POST | 200
+2025-12-02 09:15:05 | 192.168.1.106 | /api/cards | GET | 200
+2025-12-02 10:30:10 | 192.168.1.107 | /api/accounts/balance | GET | 200
+2025-12-02 11:45:05 | 45.123.45.67 | /api/users | GET | 401
+2025-12-02 11:45:10 | 45.123.45.67 | /api/customers/export | GET | 403
+2025-12-02 11:45:15 | 45.123.45.67 | /api/transactions/export | GET | 403
+2025-12-02 11:45:20 | 45.123.45.67 | /api/database/dump | GET | 403
+2025-12-02 13:20:05 | 192.168.1.108 | /api/accounts | GET | 200
+2025-12-02 14:05:35 | 192.168.1.109 | /api/cards/activate | POST | 200
+
+2025-12-03 08:00:05 | 192.168.1.100 | /api/accounts | GET | 200
+2025-12-03 08:30:05 | 192.168.1.101 | /api/transactions | GET | 200
+2025-12-03 09:00:05 | 192.168.1.102 | /api/cards | GET | 200
+2025-12-03 09:30:05 | 198.51.100.23 | /api/admin/users | DELETE | 403
+2025-12-03 09:30:10 | 198.51.100.23 | /api/accounts/1 | DELETE | 403
+2025-12-03 09:30:15 | 198.51.100.23 | /api/transactions/1 | DELETE | 403
+2025-12-03 09:30:20 | 198.51.100.23 | /api/customers/1 | DELETE | 403
+2025-12-03 09:30:25 | 198.51.100.23 | /api/database/drop | POST | 403
+2025-12-03 10:15:05 | 192.168.1.103 | /api/accounts/balance | GET | 200
+2025-12-03 11:00:10 | 192.168.1.104 | /api/transactions/history | GET | 200
+2025-12-03 12:30:05 | 192.168.1.105 | /api/cards/status | GET | 200
+2025-12-03 14:00:05 | 192.168.1.106 | /api/accounts | GET | 200
+
+2025-12-04 08:05:05 | 192.168.1.100 | /api/accounts | GET | 200
+2025-12-04 08:15:05 | 89.234.56.78 | /api/accounts/1/transactions | GET | 401
+2025-12-04 08:15:10 | 89.234.56.78 | /api/accounts/2/transactions | GET | 401
+2025-12-04 08:15:15 | 89.234.56.78 | /api/accounts/3/transactions | GET | 401
+2025-12-04 08:15:20 | 89.234.56.78 | /api/accounts/4/transactions | GET | 401
+2025-12-04 08:15:25 | 89.234.56.78 | /api/accounts/5/transactions | GET | 401
+2025-12-04 08:15:30 | 89.234.56.78 | /api/accounts/6/transactions | GET | 401
+2025-12-04 08:15:35 | 89.234.56.78 | /api/accounts/7/transactions | GET | 401
+2025-12-04 08:15:40 | 89.234.56.78 | /api/accounts/8/transactions | GET | 401
+2025-12-04 08:15:45 | 89.234.56.78 | /api/accounts/9/transactions | GET | 401
+2025-12-04 08:15:50 | 89.234.56.78 | /api/accounts/10/transactions | GET | 401
+2025-12-04 09:00:10 | 192.168.1.101 | /api/transactions | GET | 200
+2025-12-04 10:30:05 | 192.168.1.107 | /api/cards | GET | 200
+2025-12-04 11:45:05 | 192.168.1.108 | /api/accounts/balance | GET | 200
+
+2025-12-05 07:30:05 | 203.0.113.45 | /api/backup/download | GET | 403
+2025-12-05 07:30:10 | 203.0.113.45 | /api/database/export | GET | 403
+2025-12-05 07:30:15 | 203.0.113.45 | /api/system/config | GET | 403
+2025-12-05 07:30:20 | 203.0.113.45 | /api/logs/download | GET | 403
+2025-12-05 08:00:05 | 192.168.1.100 | /api/accounts | GET | 200
+2025-12-05 08:30:10 | 192.168.1.101 | /api/transactions | GET | 200
+2025-12-05 09:00:05 | 192.168.1.103 | /api/cards | GET | 200
+2025-12-05 10:00:10 | 192.168.1.104 | /api/accounts/balance | GET | 200
+2025-12-05 11:00:05 | 192.168.1.109 | /api/transactions/history | GET | 200
+2025-12-05 14:30:05 | 45.123.45.67 | /api/users/1/password | PUT | 403
+2025-12-05 14:30:10 | 45.123.45.67 | /api/users/2/password | PUT | 403
+2025-12-05 14:30:15 | 45.123.45.67 | /api/users/3/password | PUT | 403
+2025-12-05 14:30:20 | 45.123.45.67 | /api/accounts/1/balance | PUT | 403
+2025-12-05 14:30:25 | 45.123.45.67 | /api/accounts/2/balance | PUT | 403
+
+2025-12-06 08:10:05 | 192.168.1.100 | /api/accounts | GET | 200
+2025-12-06 08:20:10 | 192.168.1.101 | /api/transactions | GET | 200
+2025-12-06 09:00:05 | 192.168.1.102 | /api/cards/status | GET | 200
+2025-12-06 10:00:05 | 192.168.1.106 | /api/accounts/balance | GET | 200
+2025-12-06 11:30:10 | 192.168.1.107 | /api/transactions | GET | 200
+2025-12-06 13:00:05 | 198.51.100.23 | /api/admin/users/create | POST | 403
+2025-12-06 13:00:10 | 198.51.100.23 | /api/admin/permissions | GET | 403
+2025-12-06 13:00:15 | 198.51.100.23 | /api/system/shutdown | POST | 403
+2025-12-06 14:30:05 | 192.168.1.108 | /api/cards | GET | 200
+
+2025-12-07 08:00:05 | 192.168.1.100 | /api/accounts | GET | 200
+2025-12-07 08:30:10 | 192.168.1.101 | /api/transactions | GET | 200
+2025-12-07 09:00:05 | 101.202.45.88 | /api/accounts/1/transactions | GET | 401
+2025-12-07 09:00:10 | 101.202.45.88 | /api/accounts/2/transactions | GET | 401
+2025-12-07 09:00:15 | 101.202.45.88 | /api/accounts/3/transactions | GET | 401
+2025-12-07 09:00:20 | 101.202.45.88 | /api/accounts/4/transactions | GET | 401
+2025-12-07 09:00:25 | 101.202.45.88 | /api/accounts/5/transactions | GET | 401
+2025-12-07 09:00:30 | 101.202.45.88 | /api/customers/export | GET | 403
+2025-12-07 09:00:35 | 101.202.45.88 | /api/database/backup | GET | 403
+2025-12-07 10:00:05 | 192.168.1.103 | /api/cards | GET | 200
+2025-12-07 11:00:10 | 192.168.1.104 | /api/accounts/balance | GET | 200
+2025-12-07 12:00:05 | 192.168.1.105 | /api/transactions/search | POST | 200
+
+2025-12-08 08:05:05 | 192.168.1.100 | /api/accounts | GET | 200
+2025-12-08 08:25:10 | 192.168.1.101 | /api/transactions | GET | 200
+2025-12-08 09:15:05 | 192.168.1.102 | /api/cards | GET | 200
+2025-12-08 10:00:05 | 192.168.1.109 | /api/accounts/balance | GET | 200
+2025-12-08 11:30:05 | 203.0.113.45 | /api/admin/users | GET | 403
+2025-12-08 11:30:10 | 203.0.113.45 | /api/admin/logs | GET | 403
+2025-12-08 11:30:15 | 203.0.113.45 | /api/system/info | GET | 403
+2025-12-08 11:30:20 | 203.0.113.45 | /api/database/tables | GET | 403
+2025-12-08 11:30:25 | 203.0.113.45 | /api/backup/list | GET | 403
+2025-12-08 14:00:05 | 192.168.1.106 | /api/transactions/history | GET | 200
+2025-12-08 15:00:10 | 192.168.1.107 | /api/cards/status | GET | 200
+2025-12-08 16:00:05 | 192.168.1.108 | /api/accounts | GET | 200
+
+# Spike of suspicious activity on 2025-12-08 late evening (just before the attack on 2025-12-15)
+2025-12-08 22:00:05 | 45.123.45.67 | /api/admin/users | GET | 403
+2025-12-08 22:00:10 | 45.123.45.67 | /api/admin/config | GET | 403
+2025-12-08 22:00:15 | 45.123.45.67 | /api/system/processes | GET | 403
+2025-12-08 22:00:20 | 45.123.45.67 | /api/database/schema | GET | 403
+2025-12-08 22:00:25 | 89.234.56.78 | /api/backup/download | GET | 403
+2025-12-08 22:00:30 | 89.234.56.78 | /api/system/files | GET | 403
+2025-12-08 22:00:35 | 101.202.45.88 | /api/database/export | POST | 403
+2025-12-08 22:00:40 | 101.202.45.88 | /api/logs/clear | DELETE | 403
+2025-12-08 22:00:45 | 198.51.100.23 | /api/admin/settings | PUT | 403
+2025-12-08 22:00:50 | 203.0.113.45 | /api/system/backup | POST | 403
+
+# END OF LOG FILE
+# 
+# NOTES FOR STUDENTS:
+# - Look for patterns of suspicious API calls:
+#   * Multiple 403 (Forbidden) errors → Attempted unauthorized access
+#   * Requests to /api/admin/* endpoints from external IPs
+#   * DELETE methods on critical resources
+#   * Attempts to access /api/backup, /api/database, /api/system
+#   * Sequential access to multiple account IDs (enumeration attack)
+#   * PUT/POST methods to modify passwords or balances
+# 
+# - Suspicious IPs show patterns of:
+#   * Endpoint enumeration (trying many different endpoints)
+#   * Privilege escalation attempts (admin, system, database endpoints)
+#   * Data exfiltration attempts (export, backup, download)
+#   * Destructive actions (DELETE methods, clear logs)
+# 
+# - The spike on 2025-12-08 22:00 (evening before the attack) is particularly suspicious
+#   → This shows coordination between multiple attacker IPs
+#   → This preceded the actual ransomware attack on 2025-12-15
+# 
+# - Use Python Pandas to analyze:
+#   * Count of requests per IP
+#   * Count of 403/401 errors per IP
+#   * Most targeted endpoints
+#   * HTTP methods distribution (GET vs POST/PUT/DELETE)
+#   * Time-based patterns (unusual hours)
